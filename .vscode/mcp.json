@@ -1,0 +1,23 @@
+{
+  "servers": {
+    "playwright": {
+      "command": "/Users/veera/PycharmProjects/AgentE2EQAWorkflow-Playwright/.vscode/run-mcp.sh",
+      "args": [
+        "npx",
+        "@playwright/mcp@latest"
+      ],
+      "type": "stdio"
+    },
+    "playwright-test": {
+      "type": "stdio",
+      "command": "/Users/veera/PycharmProjects/AgentE2EQAWorkflow-Playwright/.vscode/run-mcp.sh",
+      "args": [
+        "npx",
+        "playwright",
+        "run-test-mcp-server"
+      ]
+    }
+
+  },
+  "inputs": []
+}
